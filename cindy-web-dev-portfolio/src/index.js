@@ -11,9 +11,34 @@ function App() {
 }
 
 function Header() {
+  //look for font
   return (
     <header>
-      <h1>Cindy's Portfolio</h1>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="logo/artmeetcindylogo.png"
+                    alt="Logo"
+                    width="30"
+                    height="30"
+                    class="d-inline-block align-text-top"
+                  />
+                </div>
+                <div class="col">
+                  <p className="header-title">
+                    Cindy's Web Development Porfolio
+                  </p>
+                </div>
+                <div class="col">hi</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </nav>
     </header>
   );
 }
