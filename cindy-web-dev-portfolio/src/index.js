@@ -5,7 +5,6 @@ import "./index.css";
 function App() {
   return (
     <div className="container">
-      <Hero />
       <Header />
     </div>
   );
@@ -15,8 +14,8 @@ function Header() {
   //look for font
   return (
     <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+      <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="./">
             <div class="row">
               <div class="col">
@@ -33,21 +32,19 @@ function Header() {
               </div>
             </div>
           </a>
-        </div>
-      </nav>
-    </header>
-  );
-}
-
-function Hero() {
-  return (
-    <div className="hero">
-      <div class="container-fluid">
-        <video width="320" height="240">
-          <source src="videos/portfolio-video.mp4"></source>
-        </video>
+        </nav>
       </div>
-    </div>
+
+      <div className="hero-container">
+        <video autoPlay loop muted className="hero-video">
+          <source src="videos/portfolio-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="hero-overlay">
+          <h1 className="hero-text">Welcome to My Portfolio</h1>
+        </div>
+      </div>
+    </header>
   );
 }
 
