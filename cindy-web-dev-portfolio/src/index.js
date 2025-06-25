@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="container">
       <Header />
+      <About />
     </div>
   );
 }
@@ -45,6 +46,14 @@ function Header() {
         </div>
       </div>
     </header>
+  );
+}
+
+function About() {
+  return (
+    <div className="container">
+      <h1>hi. I am Cindy Lara! </h1>
+    </div>
   );
 }
 
