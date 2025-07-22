@@ -30,6 +30,11 @@ function Header() {
               </div>
               <div class="col">
                 <p className="header-title">Cindy's Web Development Porfolio</p>
+                <p className="header-paragraph">
+                  Ever since I was a kid, I was a curious being. With a drive to
+                  explore, create and expand my mind with new information. Web
+                  development spoke to me.
+                </p>
               </div>
             </div>
           </a>
