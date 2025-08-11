@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="container">
       <Header />
+
       <About />
     </div>
   );
@@ -15,7 +16,7 @@ function Header() {
   //look for font
   return (
     <header>
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="./">
             <div class="row">
@@ -52,12 +53,11 @@ function Header() {
 function About() {
   return (
     <div className="container">
-      <h1>hi. I am Cindy Lara! </h1>
+      <h1 className="header-title">hi. I am Cindy Lara! </h1>
       <p className="header-paragraph">
-        A curious kid at heart, with the thirst for more. With a drive to
-        explore, create and expand my mind with new information. Web development
-        was for me. To say I love to create in words does not expand on the joy
-        I feel within myself everyday!
+        A curious kid at heart, driven by curiousity. With a happy middle
+        ground, lover of challenges and creativity, Web development is for me. A
+        problem solver with Sudoku and creator with Crochet on my spare time. :D
       </p>
     </div>
   );

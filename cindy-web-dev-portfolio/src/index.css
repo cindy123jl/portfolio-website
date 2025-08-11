@@ -11,8 +11,14 @@ body {
   font-weight: bold;
 }
 
+.header-title {
+  color: #ddc67b;
+  font-size: 3vw;
+}
+
 .header-paragraph {
-  font-size: 5vw;
+  font-size: 2vw;
+  color: #ddc67b;
   width: auto;
   object-fit: cover;
   text-align: center;
