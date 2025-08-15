@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
       <Header />
-
+      <Hero />
       <About />
     </div>
   );
@@ -36,17 +36,21 @@ function Header() {
           </a>
         </nav>
       </div>
-
-      <div className="hero-container">
-        <video autoPlay loop muted className="hero-video">
-          <source src="videos/portfolio-video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="hero-overlay">
-          <h1 className="hero-text">Welcome to My Portfolio</h1>
-        </div>
-      </div>
     </header>
+  );
+}
+
+function Hero() {
+  return (
+    <div className="hero-container">
+      <video autoPlay loop muted className="hero-video">
+        <source src="videos/portfolio-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="hero-overlay">
+        <h1 className="hero-text">Welcome to My Portfolio</h1>
+      </div>
+    </div>
   );
 }
 
